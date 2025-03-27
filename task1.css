@@ -1,0 +1,709 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Section 1 */
+#section-1{
+    background-image: url(bgpicture.png);
+    background-size: cover; 
+    height: 550px;
+}
+/* Navigation BAR */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg,black,#333333, transparent);
+    
+}
+ /* NAVBAR:IMAGE */
+ #navbar img{
+     height: 45px;
+     margin: 15px 15px;
+ }
+ /* NAVBAR:LIST STYLING */
+ #navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    margin: 5px 30px;
+    list-style: none; 
+}
+#navbar ul li a{
+    display: block;  /*BY default it is inline */
+    padding: 30px 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+/* HOME SECTION */
+#home{
+    margin: 15px 15px;
+}
+h1{
+color: white; 
+font-size: 50px;
+}
+#home p{
+    color:rgb(209, 204, 204);
+    font-size: larger;
+}
+#btn{
+    border: 2px solid orangered;
+    border-radius: 25px;
+    background-color:orangered;
+    padding: 5px 20px;  
+    color:white;  
+    font-size: medium;
+}
+/* SECTION 2 */
+#section-2{
+    background-image: url(Design.png);
+    background-size: cover;
+    background-color:white;
+    height: 600px; 
+    text-align: center;
+    margin-top: 80px;
+}
+#section-2 h1,h3{
+    color: orangered;
+}
+#section-2 p{
+    color: orangered;
+    font-size: larger;
+}
+.pic{
+    justify-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+/* SECTION 3 */
+#section-3{
+    background-color: rgb(246, 75, 60);
+    height: 550px;
+}
+#section-3 p{
+    color: white;
+    font-size: larger;
+}
+/* SECTION 3 ITEMS  */
+.sec3items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec3items img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+#section-3 button{
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color:white;
+    padding: 5px 20px;  
+    color:orangered;  
+    font-size: medium;
+}
+/* SECTION 4 */
+#section-4{
+    background-color:white;
+    background-image: url(Design\ 2.png);
+    background-size: cover;
+    height: 550px;
+}
+/* SECTION 4 ITEMS  */
+.sec4items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#section-4 h1{
+    color: orangered;
+
+}
+#section-4 p{
+    color:orangered;
+    font-size: larger;
+}
+.sec4items img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+#section-4 button{
+    border: 2px solid orangered;
+    border-radius: 25px;
+    background-color:orangered;
+    padding: 5px 20px;  
+    color:white;  
+    font-size: medium;
+}
+/* SECTION 5 */
+#section-5{
+    text-align: center;
+    background-color: rgb(246, 75, 60);
+    height: 550px;
+}
+/* SECTION 5 ITEMS */
+#sec5items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#sec5items .box{
+    border: 2px solid white;
+    border-radius: 150px;
+    height: 200px;
+    width: 200px;
+}
+#section-5 p{
+    color:white;
+    font-size: larger;
+}
+/* SECTION - 6 */
+#section-6{
+    background-color:rgb(246, 238, 223);
+    background-image: url(Design\ 3.png);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+#section-6 h1{
+    color: orangered;
+}
+/* SECTION 6 ITEMS */
+#sec6items h2,h3{
+    color: orangered;
+}
+#sec6items p{
+    color: orangered;
+}
+#sec6items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#sec6items .icon{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 320px;
+    width: 300px;
+}
+#section-6 button{
+    border: 2px solid orangered;
+    border-radius: 25px;
+    background-color:orangered;
+    padding: 5px 20px;  
+    color:white;  
+    font-size: medium;
+}
+/* SECTION-7 */
+ #section-7{
+    background-image: url(bgpicture1.png);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    text-align: center;
+}
+#section-7::after{
+    content: "";
+    background-color: #f25747; 
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+} 
+#section-7 h2{
+    color: white;
+}
+/* SECTION-8 */
+#section-8{
+    background-image: url(Design\ 4.png);
+    background-color:rgb(246, 238, 223);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+#section-8 h1,h3{
+    color:orangered;
+}
+/* SECTION 8 BUTTTONS */
+.sec8btn{
+    display: flex;
+    justify-content: center;
+}
+.sec8btn button {
+    padding: 10px 20px; 
+    border: none;
+}
+.sec8btn .btn1 { 
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+    color: gainsboro;
+    width: 25%;
+ } 
+.sec8btn .btn2 
+{ 
+    background-color: orangered;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    width: 8%;
+}
+/* SECTION 9 */
+#section-9{
+    background-color:black;
+    background-size: cover;
+    height: 550px;
+}
+#section-9 h3,p{
+    color: white;
+}
+/* SECTION 9 ITEMS */
+.sec9items{
+    display: flex;
+    justify-content: space-evenly;
+    padding:5px ;
+}
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/* Media Queries */
+
+/* For screens smaller than 768px (Tablets and Mobiles) */
+@media screen and (max-width: 768px) {
+    #section-1,
+    #section-2,
+    #section-3,
+    #section-4,
+    #section-5,
+    #section-6,
+    #section-7,
+    #section-8,
+    #section-9 {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    #home p,
+    #section-2 p,
+    #section-3 p,
+    #section-4 p,
+    #section-5 p,
+    #section-6 p,
+    #section-7 p,
+    #section-8 p,
+    #section-9 p {
+      font-size: 1em;
+    }
+  
+    #navbar ul {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #navbar ul li {
+      margin: 10px 0;
+    }
+  
+    #section-2 .pic,
+    #section-3 .sec3items,
+    #section-4 .sec4items,
+    #section-5 #sec5items,
+    #section-6 #sec6items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sec8btn {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .sec8btn button {
+      margin: 5px;
+      width: 100%;
+    }
+  
+    .sec9items {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* For screens larger than 768px (Desktops) */
+  @media screen and (min-width: 768px) {
+    #section-2 .pic,
+    #section-3 .sec3items,
+    #section-4 .sec4items,
+    #section-5 #sec5items,
+    #section-6 #sec6items {
+      justify-content: space-evenly;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
